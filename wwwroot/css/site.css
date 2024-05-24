@@ -1,0 +1,87 @@
+<style >
+body {
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Agbalumo", system-ui;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 22px;
+}
+
+    .left img {
+        width: 70px;
+    }
+
+.middle {
+    display: block;
+    width: 43%;
+    margin: 18px auto;
+    /* border: 2px solid rgb(77, 176, 112); */
+}
+
+
+
+.navbar {
+    display: inline-block;
+}
+
+    .navbar li {
+        display: inline-block;
+        /* for all elements in one line  */
+        font-size: 22px;
+    }
+
+
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+            /* for remove line under text  */
+            padding: 34px 13px;
+        }
+
+            .navbar li a:hover,
+            .navbar li a.Active {
+                text-decoration: underline;
+                color: gray;
+            }
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 018px;
+    /* border: 2px solid rgb(210, 194, 85); */
+}
+
+.btn {
+    margin: 10px 9px;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: "Agbalumo", system-ui;
+}
+
+    .btn:hover {
+        background-color: gray;
+    }
+/* container stylesheet */
+.container {
+    border: 2px solid green;
+    margin: 222px 222px;
+    padding: 2px 2px;
+    width: 33%;
+    border-radius: 2px;
+}
+
+</style >
